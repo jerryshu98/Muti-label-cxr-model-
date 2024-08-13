@@ -36,3 +36,5 @@ This Jupyter notebook contains code for analyzing the performance of the trained
    ```bash
    python data_processing.py
 2. **Train the Model**: Run `Model_training.py'` to train the ResNet model using the processed dataset. The model will be saved in the ./models/resnetv0/ directory.
+   ```bash
+   python main_script.py <model_number>
