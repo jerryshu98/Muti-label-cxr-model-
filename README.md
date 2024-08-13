@@ -34,7 +34,7 @@ This Jupyter notebook contains code for analyzing the performance of the trained
 1. **Prepare the Dataset**: Run `TFrecord_data_process.py` to process the raw TFRecord data and split it into training, validation, and test sets. The output will be stored in pickle files in the `./new_data/` directory.
 
    ```bash
-   python data_processing.py
+   python TFrecord_data_process.py
 2. **Train the Model**: Run `Model_training.py'` to train the ResNet model using the processed dataset. The model will be saved in the ./models/resnetv0/ directory.
    ```bash
-   python main_script.py <model_number>
+   python Model_training.py <model_number>
